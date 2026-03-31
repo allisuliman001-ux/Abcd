@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <style >
+        
+        body{
+            background-image:url(a.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position: center;
+            margin:0;
+            height:100vh;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <FORM action="success.html">
+        <label for="name">FULLNAME:</label>
+        <br>
+        <input type="text" name="First Name" placeholder="sulaiman">
+        <br><br>
+   <Label for="Date">DATE OF BIRTH:</Label>
+   <br>
+   <input type="date" name="Date of birth" id="date"> 
+   
+   <br><br>
+   <lable>GENDER:</lable>
+   <br>
+   <SELECT>
+       <option></option>
+       <OPTION>MALE</OPTION>
+       <OPTION>FEMALE</OPTION>
+   </SELECT>
+   
+   <BR><BR>
+   <LABEL>STATE:</LABEL>
+   <br>
+   <SELECT>
+       <option></option>
+       <OPTION>KWARA</OPTION>
+       <OPTION>LAGOS</OPTION>
+       <OPTION>KOGI</OPTION>
+       <OPTION>KADUNA</OPTION>
+       <OPTION >OSUN</OPTION>
+   </SELECT>
+   <br><br>
+   <label>PHONE NO:</label>
+   <br>
+   <INPUT TYPE="NUMBER" placeholder ="+234">
+   <br><br>
+   <label >G-MAIL:</label>
+   <br>
+   <input type="email" placeholder="allisuliman001@gmail.com">
+   <br><br>
+   <lable>PASSWORD:</lable>
+   <br>
+   <INPUT TYPE ="PASSWORD">
+   <br><br>
+   
+   <lable>MARITAL STATUS:</lable>
+   <br>
+   <INPUT TYPE="RADIO" NAME ="RADIO">SINGLE 
+   <br>
+   <input type="radio" name="radio">MARRIED 
+   <br><br>
+   
+   <input type="reset" name="reset" id="reset">
+   <input type="submit" name="submit" id="submit" value="submit">
+    </FORM>
+</body>
+</html>
